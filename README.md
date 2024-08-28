@@ -15,7 +15,7 @@ Minecraft is a sandbox video game developed by Mojang Studios. The game allows p
 
 This Docker image contains the dedicated server for Minecraft Java Edition.
 
-<a href="https://www.minecraft.net/"><img src="https://www.minecraft.net/content/dam/games/minecraft/key-art/MC_One-Vanilla_285x380px.jpg" alt="Minecraft logo" width="400"/></img></a>
+<a href="https://www.minecraft.net/"><img src="https://www.minecraft.net/content/dam/games/minecraft/key-art/MC_One-Vanilla_285x380px.jpg" alt="Minecraft logo" width="400"></a>
 
 ## How to use this image
 ### Hosting a simple game server
