@@ -1,0 +1,11 @@
+services:
+  minecraft-server:
+    image: jcivitell/minecraft-server
+    build:
+      context: .
+      dockerfile: Dockerfile
+      tags:
+      - "jcivitell/minecraft-server:${CIRCLE_BRANCH:-master}"
+      - "jcivitell/minecraft-server:${CIRCLE_TAG:-latest}"
+    volumes:
+      - ./mc-server:/app
