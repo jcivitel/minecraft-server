@@ -7,7 +7,7 @@ RUN apk update && \
 
 WORKDIR /app
 
-RUN wget -O /opt/server.jar https://piston-data.mojang.com/v1/objects/59353fb40c36d304f2035d51e7d6e6baa98dc05c/server.jar
+RUN wget -O /opt/server.jar https://piston-data.mojang.com/v1/objects/95495a7f485eedd84ce928cef5e223b757d2f764/server.jar
 
 COPY opt/entry.sh /opt/entry.sh
 RUN chmod +x /opt/entry.sh
